@@ -1,4 +1,3 @@
 fun main() {
-    forloop()
-    forloopIndex()
+    whileLoop()
 }
