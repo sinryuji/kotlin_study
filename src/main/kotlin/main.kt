@@ -6,4 +6,7 @@ fun main() {
     val b: Int = 123
     println(describe(b))
     println(describe("hi"))
+
+    println(systemInfo01())
+    println(systemInfo02())
 }
