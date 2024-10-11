@@ -1,12 +1,17 @@
 fun main() {
-    println(describe(1))
-    println(describe("Hello"))
-    val a: Long = 123
-    println(describe(a))
-    val b: Int = 123
-    println(describe(b))
-    println(describe("hi"))
+    println("=== ranges01 ===")
+    ranges01()
+    println()
 
-    println(systemInfo01())
-    println(systemInfo02())
+    println("=== ranges02 ===")
+    ranges02()
+    println()
+
+    println("=== ranges03 ===")
+    ranges03()
+    println()
+
+    println("=== ranges04 ===")
+    ranges04()
+    println()
 }
